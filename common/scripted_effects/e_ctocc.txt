@@ -1,0 +1,8 @@
+culture_conversion_effects = {
+    set_culture_to_global_var = {
+        every_held_title = {
+            limit = { is_county = yes }
+            set_county_culture = global_var:char_culture
+        }
+    }
+}

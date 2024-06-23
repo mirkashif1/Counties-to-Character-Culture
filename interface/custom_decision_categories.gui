@@ -1,0 +1,8 @@
+guiTypes = {
+    decision_category = {
+        name = "custom_decision_category"
+        title = "Custom Decisions"
+        desc = "Custom decisions for testing."
+        allow = "always = yes"
+    }
+}

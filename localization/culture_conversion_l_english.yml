@@ -1,0 +1,5 @@
+l_english:
+  culture_conversion_decision: "Convert counties to your Culture"
+  culture_conversion_decision_desc: "Convert all counties to your current culture."
+  culture_conversion.1.title: "Culture Conversion"
+  culture_conversion.1.desc: "Convert all held Counties to your current culture."

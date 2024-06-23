@@ -1,0 +1,22 @@
+namespace = culture_conversion
+
+character_event = {
+    id = culture_conversion.1
+    title = culture_conversion.1.title
+    desc = culture_conversion.1.desc
+
+    is_triggered_only = yes
+
+    immediate = {
+        effect = {
+            set_global_variable = { name = char_culture value = root.culture }
+        }
+    }
+
+    option = {
+        name = "Apply Culture"
+        effect = {
+            script_effect = { name = set_culture_to_global_var }
+        }
+    }
+}

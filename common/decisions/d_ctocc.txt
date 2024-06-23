@@ -1,0 +1,25 @@
+decision = {
+    name = culture_conversion_decision
+    desc = culture_conversion_decision_desc
+    icon = generic_decision
+    category = custom_decision_category
+
+    potential = {
+        ai = no
+        is_adult = yes
+        is_ruler = yes
+        is_debug = yes  # Ensures decision is available in debug mode only
+    }
+
+    allow = {
+        always = yes
+    }
+
+    effect = {
+        trigger_event = culture_conversion.1
+    }
+
+    ai_will_do = {
+        factor = 0
+    }
+}
